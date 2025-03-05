@@ -27,8 +27,11 @@ function Contact() {
           <form
             className="flex flex-col max-w-lg w-full p-4 text-sm sm:text-base font-medium sm:font-normal"
             name="contactMe"
-            netlify
+            method="POST"
+            data-netlify="true"
           >
+            {/* Hidden input field for Netlify to detect the form */}
+            <input type="hidden" name="form-name" value="contactMe" />
             <input
               placeholder="Name"
               name="name"
