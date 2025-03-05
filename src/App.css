@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  font-family: "Ubuntu", "Space Grotesk", ui-sans-serif, system-ui, serif;
+}
+
+.font-space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1.25s infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* canvas for mobile */
+#wrapper-canvas canvas {
+  max-width: 100%;
+  min-height: 100dvh;
+  display: none;
+}
+
+/* canvas for more than mobile size */
+@media (min-width: 640px) {
+  #wrapper-canvas canvas {
+    display: block;
+  }
+}
+
+/* style for active nav bar  */
+.active-nav a {
+  color: #00ffff;
+  text-decoration: underline;
+}
+
+/* universal button style */
+.button {
+  padding-inline: 16px;
+  padding-block: 8px;
+  color: white;
+  border: 2px solid #00ffff;
+  background: linear-gradient(to left, #00ffffe2, #1f2667e6);
+  transition: 250ms ease-in-out;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.button:hover {
+  color: #00ffff;
+  background: transparent;
+}
