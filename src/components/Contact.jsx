@@ -29,7 +29,6 @@ function Contact() {
             name="contact v1"
             method="POST"
             data-netlify="true"
-            onSubmit="submit"
           >
             {/* Hidden input field for Netlify to detect the form */}
             <input type="hidden" name="form-name" value="contact v1" />

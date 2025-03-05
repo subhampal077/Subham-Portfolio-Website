@@ -9,7 +9,18 @@
   <body>
     <div id="root"></div>
 
-    <form name="contact v1" data-netlify="true"></form>
+    <form
+      className="flex flex-col max-w-lg w-full p-4 text-sm sm:text-base font-medium sm:font-normal"
+      name="contact v1"
+      data-netlify="true"
+      hidden
+    >
+      <input placeholder="Name" name="name" required />
+      <input required placeholder="Email" name="email" />
+      <input placeholder="Phone Number" type="number" name="phoneNo" />
+      <textarea rows="5" name="message" placeholder="Your Message" />
+    </form>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
