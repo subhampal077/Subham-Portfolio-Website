@@ -96,7 +96,7 @@ export const allProjects = [
     img: myPortfolio,
     desc: "This is my new portfolio which I recently made using React, JavaScript, TailwindCSS and matterJs. Within my portfolio, you will find a diverse range of projects that I have completed throughout my career.",
     stack: "HTML, CSS, Tailwind, JavaScript, ReactJS",
-    liveUrl: "abc",
-    github: "abc",
+    liveUrl: "https://subham077-portfolio.netlify.app/",
+    github: "https://github.com/subhampal077/Subham-Portfolio-Website",
   },
 ];
