@@ -27,7 +27,6 @@ function Contact() {
           <form
             className="flex flex-col max-w-lg w-full p-4 text-sm sm:text-base font-medium sm:font-normal"
             name="contactMe"
-            action="post"
             method="POST"
             data-netlify="true"
           >
@@ -35,6 +34,7 @@ function Contact() {
             <input
               placeholder="Name"
               name="name"
+              required
               className={`mb-5 py-2 px-4 rounded-lg shadow-[0_0_8px_0_rgba(0,0,0,0.2)] outline-none ${
                 darkTheme
                   ? "bg-[#1C1F26] placeholder-white"
@@ -42,6 +42,7 @@ function Contact() {
               }`}
             />
             <input
+              required
               placeholder="Email"
               name="email"
               className={`mb-5 py-2 px-4 rounded-lg shadow-[0_0_8px_0_rgba(0,0,0,0.2)] outline-none ${
