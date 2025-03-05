@@ -29,7 +29,7 @@ function Home() {
 
           <button className="button mt-8 sm:ml-32">
             <a
-              href="https://drive.google.com/file/d/1qALeKn1eJ3sG4XGGka3Vz5qLTCXdsUII/view?usp=sharing"
+              href="https://drive.google.com/file/d/1suqTjZX8A1tJqeYZ7zYPtgJG_j2cr3Nb/view?usp=sharing"
               target="_blank"
             >
               Resume
