@@ -24,7 +24,7 @@ export const allProjects = [
     name: "Forever E-Commerce",
     img: foreverEcomImg,
     desc: "This project is about building an online E-commerce web application. Where I have used the functionalities of an e-commerce website such as filtering the products, searching, sorting and add to cart.",
-    stack: "HTML, CSS, JavaScript, ReactJS and ContextAPI",
+    stack: "HTML, TailwindCss, JavaScript, ReactJS and ContextAPI",
     liveUrl: "https://subh-forever-ecommerce.netlify.app/",
     github:
       "https://github.com/subhampal077/08-FRONTEND-PROJECTS-for-RESUME/tree/master/5-React-E-commerce-Project",
