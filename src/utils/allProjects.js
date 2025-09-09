@@ -46,7 +46,7 @@ export const allProjects = [
     desc: "This website is a clone of “Netflix.com” with Firebase integration, in which I implemented some functionalities like login & signup user data authentication, and cloned the UI part.",
     stack:
       "HTML, CSS, JavaScript, ReactJS, Redux Toolkit, Rest API and Firebase",
-    liveUrl: "https://netflix-app-055.web.app/",
+    liveUrl: "https://subh-react-netlixfirebase.netlify.app/",
     github:
       "https://github.com/subhampal077/08-FRONTEND-PROJECTS-for-RESUME/tree/master/2-React-Netflix-App-with-firebase-authentication",
   },
